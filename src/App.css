@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 25px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.img {
+  width: 600px;
+  height: 500px;
+  object-fit: contain;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.buttonsDiv {
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+.buttonYes {
+  width: 150px;
+  height: 50px;
+  margin-bottom: 20px;
+  background-color: rgb(109, 233, 8);
+  color: #fff;
+  border-radius: 15px 15px;
+  font-size: 15px;
+}
+.buttonNo {
+  width: 150px;
+  height: 50px;
+  margin-bottom: 20px;
+  background-color: rgb(233, 8, 8);
+  color: #fff;
+  border-radius: 15px 15px;
+  font-size: 15px;
+}
+.buttonReset {
+  width: 150px;
+  height: 50px;
+  margin-bottom: 20px;
+  background-color: rgb(140, 140, 140);
+  color: #fff;
+  border-radius: 15px 15px;
+  font-size: 15px;
+}
+
+.shot1{
+  width: 700px;
+  height: 700px;
+  object-fit: contain;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
+.shot2{
+  width: 700px;
+  height: 700px;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.codediv{
+  justify-content: center;
+  align-items: center;
 }
